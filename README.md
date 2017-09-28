@@ -3,7 +3,7 @@ CLI que mostra últimos valores de IBOVESPA, NASDAQ, IFIX, Dólar, Euro, CDI, Po
 
 ## Instalation
 ```sh
-$ npm install -g economist-cli
+$ npm install -g economist
 ```
 
 ## How to use
