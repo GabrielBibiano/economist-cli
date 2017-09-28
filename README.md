@@ -10,3 +10,5 @@ $ npm install -g economist
 ```sh
 $ economist
 ```
+
+Informações requisitadas de InfoMoney
