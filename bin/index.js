@@ -3,7 +3,7 @@ const request = require('request-promise')
 const Table = require('cli-table')
 const cheerio = require('cheerio')
 const colors = require('chalk')
-const { isPositive } = require('../src/functions.js')
+const { isPositive, thisTime } = require('../src/functions.js')
 
 const options = {
     uri: 'http://www.infomoney.com.br/',
@@ -46,9 +46,8 @@ request(options).then(($) => {
         ]);
     })
 
-    const date = new Date()
     console.log(table.toString())
-    console.log("\n", `Checked at: ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`, "\n")
+    console.log('\n', thisTime(), '\n')
 }).catch((err) => {
     console.log(err)
 });

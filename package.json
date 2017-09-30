@@ -1,6 +1,6 @@
 {
   "name": "economist",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "CLI que mostra últimos valores de IBOVESPA, NASDAQ, IFIX, Dólar, Euro, CDI, Poupança e Bitcoin",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/gabrielbibiano/economist-cli/issues"
   },
   "homepage": "https://github.com/gabrielbibiano/economist-cli#readme",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^2.1.0",
     "cheerio": "^1.0.0-rc.2",
     "cli-table": "^0.3.1",

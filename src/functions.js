@@ -6,3 +6,12 @@ exports.isPositive = (val) => {
         return false
     }
 }
+
+exports.thisTime = () => {
+    const date = new Date()
+    const hours = date.getHours()
+    const minutes = date.getMinutes()
+    const seconds = date.getSeconds()
+
+    return `Checked at: ${hours}:${minutes}:${minutes}`
+}
